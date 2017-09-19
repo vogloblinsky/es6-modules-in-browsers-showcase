@@ -1,4 +1,4 @@
-# ES6 modules in the browser demo
+# ES6 modules in modern browsers showcase
 
 The goal of this demo is to showcase the usage of ES6 modules in the browser in 3 different configurations :
 
