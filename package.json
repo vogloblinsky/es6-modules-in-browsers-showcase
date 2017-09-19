@@ -19,9 +19,11 @@
     "babel-preset-env": "^1.6.0",
     "express": "^4.15.4",
     "filesize-cli": "0.0.3",
+    "mz": "^2.7.0",
     "rollup": "^0.50.0",
-    "spdy": "^3.4.7",
+    "spdy": "3.4.7",
     "uglifyjs-webpack-plugin": "^0.4.6",
-    "webpack": "^3.6.0"
+    "webpack": "^3.6.0",
+    "zlib": "^1.0.5"
   }
 }
