@@ -27,7 +27,7 @@ npm start
 
 ## Discover
 
-###HTTP/1
+### HTTP/1
 
 Use http://localhost:3000/index-legacy.html for legacy version
 
@@ -35,7 +35,7 @@ Use http://localhost:3000/index-bundled.html for bundled version
 
 Use http://localhost:3000/index-unbundled.html for unbundled version
 
-###HTTP/2
+### HTTP/2
 
 Use https://localhost:3001/index-legacy.html for legacy version
 

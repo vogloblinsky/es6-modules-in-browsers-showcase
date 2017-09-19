@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-      "serve": "node server.js",
-      "build-all": "node build.js && npm run build-es6 && npm run minify-es6 && filesize-cli src/main-legacy.js && filesize-cli src/main-bundled.js && filesize-cli src/main-legacy.min.js && filesize-cli src/main-bundled.min.js",
-      "build-es6": "rollup -c rollup.config.es6.js",
-      "minify-es6": "minify src/main-bundled.js --out-file src/main-bundled.min.js --mangle.keepClassName"
+    "serve": "node server.js",
+    "build-all": "node build.js && npm run build-es6 && npm run minify-es6 && filesize-cli src/main-legacy.js && filesize-cli src/main-bundled.js && filesize-cli src/main-legacy.min.js && filesize-cli src/main-bundled.min.js",
+    "build-es6": "rollup -c rollup.config.es6.js",
+    "minify-es6": "minify src/main-bundled.js --out-file src/main-bundled.min.js --mangle.keepClassName"
   },
   "author": "Vincent Ogloblinsky",
   "license": "ISC",
