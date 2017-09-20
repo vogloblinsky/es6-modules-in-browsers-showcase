@@ -27,18 +27,22 @@ npm start
 
 ## Discover
 
-### HTTP/1
+The demo is hosted on Firebase, with HTTP/2 enabled by default by Firebase
 
-Use http://localhost:3000/index-legacy.html for legacy version
+### Legacy version
 
-Use http://localhost:3000/index-bundled.html for bundled version
+URL : https://es6-modules-in-browsers.firebaseapp.com/index-legacy.html
 
-Use http://localhost:3000/index-unbundled.html for unbundled version
+Webpagetest : https://www.webpagetest.org/result/170920_3C_c92ff8e332a48d3245435e1ad24ba9df/
 
-### HTTP/2
+### Bundled version
 
-Use https://localhost:3001/index-legacy.html for legacy version
+URL : https://es6-modules-in-browsers.firebaseapp.com/ for bundled version
 
-Use https://localhost:3001/index-bundled.html for bundled version
+Webpagetest : https://www.webpagetest.org/result/170920_4F_4d4b2a52fe3ce9355b6998dbe4de57f2/
 
-Use https://localhost:3001/index-unbundled.html for unbundled version
+### Unbundled version
+
+URL : https://es6-modules-in-browsers.firebaseapp.com/index-unbundled.html
+
+Webpagetest : https://www.webpagetest.org/result/170920_S3_0ecd11c04a1b30a9644211cc500b4bdb/

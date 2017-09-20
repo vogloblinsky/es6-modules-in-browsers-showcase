@@ -1,5 +1,3 @@
-import 'babel-polyfill';
-
 import {onLoad} from './scripts/app.js'
 import {$on} from './scripts/helpers.js'
 
