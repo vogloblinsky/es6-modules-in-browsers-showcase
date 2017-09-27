@@ -6,6 +6,8 @@
     "serve": "node server.js",
     "build-all": "node build.js && npm run build-es6 && npm run minify-es6 && filesize-cli src/main-legacy.js && filesize-cli src/main-bundled.js && filesize-cli src/main-legacy.min.js && filesize-cli src/main-bundled.min.js",
     "build-es6": "rollup -c rollup.config.es6.js",
+    "support-cjs": "./node_modules/.bin/rollup -c rollup.config.commonjs.js",
+    "cjs-to-es6": "./node_modules/.bin/cjs-to-es6 src/support-cjs.js",
     "minify-es6": "minify src/main-bundled.js --out-file src/main-bundled.min.js --mangle.keepClassName"
   },
   "author": "Vincent Ogloblinsky",
@@ -17,18 +19,22 @@
     "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.6.0",
+    "cjs-to-es6": "^1.0.1",
     "express": "^4.15.4",
     "filesize-cli": "0.0.3",
     "firebase-tools": "^3.12.0",
     "mz": "^2.7.0",
     "rollup": "^0.50.0",
+    "rollup-plugin-commonjs": "^8.2.1",
     "rollup-plugin-ignore": "^1.0.3",
+    "rollup-plugin-node-resolve": "^3.0.0",
     "spdy": "3.4.7",
     "uglifyjs-webpack-plugin": "^0.4.6",
     "webpack": "^3.6.0",
     "zlib": "^1.0.5"
   },
   "dependencies": {
+    "left-pad": "^1.1.3",
     "lodash-es": "^4.17.4"
   }
 }

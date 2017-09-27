@@ -25,9 +25,17 @@ main.js and main-unbudled.js are the only two main entry point.
 
 The only difference between them is the import of babel-polyfill inside main.js
 
-## Usage of external lib from npm
+## Usage of external library from npm
 
 An example of usage of lodash has been added, to demonstrate the import with relative path and support during build and develop.
+
+## Usage of external ComonJS library from npm
+
+An example of leftpad in CommonJS syntax is used inside support.js
+
+This file if converted in plain CommonJS with npm script "support-cjs".
+
+The last task to generate a compatible ES6 support module for your ES6 application is to used npm script "cjs-to-es6". It will generate a ES6 compatible module for support-cjs.js file
 
 ## Start
 
