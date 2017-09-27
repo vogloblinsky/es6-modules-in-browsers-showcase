@@ -1,4 +1,3 @@
-import node from 'rollup-plugin-node-resolve';
 import ignore from 'rollup-plugin-ignore';
 
 export default {

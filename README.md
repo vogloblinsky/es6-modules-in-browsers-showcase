@@ -19,6 +19,16 @@ The demo application is a full ES6 version of TodoMVC :
 npm i
 ```
 
+## Sources
+
+main.js and main-unbudled.js are the only two main entry point.
+
+The only difference between them is the import of babel-polyfill inside main.js
+
+## Usage of external lib from npm
+
+An example of usage of lodash has been added, to demonstrate the import with relative path and support during build and develop.
+
 ## Start
 
 ```
